@@ -1,0 +1,27 @@
+{
+  "name": "landiwetter-mcp",
+  "version": "1.0.0",
+  "description": "A Model Context Protocol (MCP) server providing weather forecasts from LandiWetter",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test-server": "node src/test-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "weather",
+    "landiwetter"
+  ],
+  "author": "Nando Bosshart",
+  "homepage": "https://automate-your-ideas.ch",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.11.0",
+    "axios": "^1.6.7",
+    "express": "^4.18.2",
+    "zod": "^3.22.4"
+  }
+}
