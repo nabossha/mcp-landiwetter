@@ -2,6 +2,10 @@
 
 This is a Model Context Protocol (MCP) server that provides Swiss weather forecast data from LandiWetter. The server allows you to search for Swiss locations and get detailed weather forecasts.
 
+<a href="https://glama.ai/mcp/servers/@nabossha/mcp-landiwetter">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@nabossha/mcp-landiwetter/badge" alt="LandiWetter Server MCP server" />
+</a>
+
 ## Features
 
 - Search for Swiss locations by name
